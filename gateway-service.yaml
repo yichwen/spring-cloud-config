@@ -7,7 +7,7 @@ spring:
         uri: http://localhost:10002
         predicates:
           - Path=/pirates/**
-#       - id: product-service
-#         uri: http://localhost:10001
-#         predicates:
-#           - Path=/products/**
+      - id: product-service
+        uri: http://localhost:10001
+        predicates:
+          - Path=/products/**
